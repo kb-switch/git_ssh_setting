@@ -2,7 +2,7 @@
 Git練習用
 
 # SSHアクセス設定方法(2021/08/13以降->ローカルからGitHubへのアクセス方法)
-1.SSHキーをローカルに作成
+1.SSHキーをローカルに作成 <br>
 $ ssh-keygen -t ed25519 -C "<email>"
   SSHキーが ~/.ssh/id_ed25519と、SSHキーが ~/.ssh/id_ed25519.pubに作成される
 $ eval "$(ssh-agent -s)"
