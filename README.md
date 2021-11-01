@@ -1,5 +1,5 @@
 # my-second-repo
-Git練習用
+This is my second repo.
 
 # SSHアクセス設定方法(2021/08/13以降->ローカルからGitHubへのアクセス方法)
 1.SSHキーをローカルに作成 <br>
