@@ -22,3 +22,26 @@ $ pbcopy < ~/.ssh/id_ed25519.pub <br>
   公開鍵をクリップボードにコピー <br>
 <b>GitHub上で、Settings -> SSH and GPG keys -> New SSH key -> 公開鍵をペースト<b> <br>
       
+# Git快適プロンプト(プロンプトHack)にする ~zshバージョン~
+<u>使用中のシェルを確認する<u> <br>
+  $ echo $SHELL <br>
+  /bin/zsh or /bin/bash など <br>
+<u>指定のシェルを使用する<u> <br>
+  $ chsh -s <shell> <br>
+  例 chsh -s /bin/zsh <br>
+
+1. ~/.zshrc のバックアップをとる(あれば) <br>
+  $ cp ~/.zshrc ~/.zshrc_yyyymmdd <br>
+2. Oh My Zsh をインストールする(https://ohmyz.sh/) <br>
+  アンインストール: $ rm -rf ~/.oh-my-zsh <br>
+3. Powerlevel10kをcloneする <br>
+  $ git clone https://github.com/romkatv/powerlevel10k.git ~/.oh-my-zsh/custom/themes/ <br>
+4. ~/.zshrc に ZSH_THEME="powerlevel10k/powerlevel10k" を追加する <br>
+
+  
+
+
+
+
+
+  
