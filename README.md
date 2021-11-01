@@ -35,7 +35,7 @@ $ pbcopy < ~/.ssh/id_ed25519.pub <br>
 2. Oh My Zsh をインストールする(https://ohmyz.sh/) <br>
   アンインストール: $ rm -rf ~/.oh-my-zsh <br>
 3. Powerlevel10kをcloneする <br>
-  $ git clone https://github.com/romkatv/powerlevel10k.git ~/.oh-my-zsh/custom/themes/ <br>
+  $ git clone https://github.com/romkatv/powerlevel10k.git ~/.oh-my-zsh/custom/themes/powerlevel10k <br>
 4. ~/.zshrc に ZSH_THEME="powerlevel10k/powerlevel10k" を追加する <br>
 
   
