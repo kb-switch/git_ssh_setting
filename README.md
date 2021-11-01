@@ -22,11 +22,11 @@ $ pbcopy < ~/.ssh/id_ed25519.pub <br>
   公開鍵をクリップボードにコピー <br>
 <b>GitHub上で、Settings -> SSH and GPG keys -> New SSH key -> 公開鍵をペースト<b> <br>
       
-# Git快適プロンプト(プロンプトHack)にする ~zshバージョン~
-<u>使用中のシェルを確認する<u> <br>
+# Git快適プロンプト(プロンプトHack)にする...zshバージョン
+使用中のシェルを確認する <br>
   $ echo $SHELL <br>
   /bin/zsh or /bin/bash など <br>
-<u>指定のシェルを使用する<u> <br>
+指定のシェルを使用する <br>
   $ chsh -s <shell> <br>
   例 chsh -s /bin/zsh <br>
 
