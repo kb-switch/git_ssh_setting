@@ -1,6 +1,3 @@
-# my-second-repo
-This is my second repo.
-
 # SSHアクセス設定方法(2021/08/13以降->ローカルからGitHubへのアクセス方法)
 1.SSHキーをローカルに作成 <br>
 $ ssh-keygen -t ed25519 -C "<email>" <br>
